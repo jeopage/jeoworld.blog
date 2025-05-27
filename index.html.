@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>مدونة جيو</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff8f0;
+      margin: 0;
+      padding: 0 1em;
+      color: #333;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #556b2f; /* لون زيتي */
+      color: white;
+      padding: 1.5em 1em;
+      text-align: center;
+      border-radius: 0 0 15px 15px;
+      margin-bottom: 1em;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    .profile-img {
+      display: block;
+      max-width: 200px;
+      width: 100%;
+      margin: 0 auto 1em auto;
+      border-radius: 100px;
+      border: 5px solid #556b2f; /* نفس اللون الزيتي */
+      object-fit: cover;
+    }
+    p.bio {
+      font-size: 1.15em;
+      text-align: center;
+      margin-bottom: 2em;
+    }
+    section.post {
+      border-top: 2px solid #556b2f; /* نفس اللون */
+      padding: 1em 0;
+    }
+    section.post h2 {
+      color: #556b2f;
+      margin-bottom: 0.5em;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>مدونة جيو</h1>
+</header>
+
+<img src="https://via.placeholder.com/200" alt="صورة جيو" class="profile-img" />
+
+<p class="bio">
+  أهلًا! أنا جيو.<br>
+  مدونتي مكان أكتب فيه، أشارككم لقطات من يومي وقرارات ندمت عليها بعد الفطور.<br>
+  ماعندي جدول ولا التزام، بس عندي إنترنت.<br>
+  إذا ضحكتوا، ممتاز. وإذا ما ضحكتوا، يمكن هذا خطأ في البرمجه.
+</p>
+
+<section class="post">
+  <h2>عنوان سوالفك هنا</h2>
+  <p>اكتب سواليفك هنا بكل بساطة.</p>
+</section>
+
+</body>
+</html>
